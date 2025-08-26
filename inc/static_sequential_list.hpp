@@ -22,6 +22,18 @@ class StaticSequentialList {
     list_[1] = data;
     size_++;
   }
+  void insert(int data, int position) {
+    // 将 position 及其后面的元素后移
+    for (int i = size_; i >= position; i--) {
+    
+    list_[i + 1] = list_[i];
+    }
+
+    // 插入元素
+    list_[position] = data;
+    
+    size_++;
+  }
 
  private:
   int list_[CAPACITY];

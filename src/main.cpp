@@ -24,5 +24,9 @@ int main(void) {
   print(sqlist);
   sqlist.push_front(10);
   print(sqlist);
+  sqlist.insert(4, 2);
+  print(sqlist);
+  sqlist.insert(4, 2);
+  print(sqlist);
   return 0;
 }
