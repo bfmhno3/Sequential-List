@@ -12,6 +12,12 @@
     <ClInclude Include="inc\main.hpp">
       <Filter>inc</Filter>
     </ClInclude>
+    <ClInclude Include="inc\static_sequential_list.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\dynamic_sequential_list.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
