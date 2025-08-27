@@ -31,6 +31,10 @@ class StaticSequentialList {
   void pop_back() { erase(size_); }
   void pop_front() { erase(1); }
   void erase(int position) {
+    // 参数安全检查
+    if (position <= 0 || position > size_) {
+      return;
+    }
     // 将元素左移
     for (int i = position; i < size_; i++) {
       list_[i] = list_[i + 1];
