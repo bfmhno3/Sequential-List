@@ -36,6 +36,13 @@ class StaticSequentialList {
     }
     size_--;
   }
+  void erase(int position) {
+    // ½«ÔªËØ×óÒÆ
+    for (int i = position; i < size_; i++) {
+      list_[i] = list_[i + 1];
+    }
+    size_--;
+  }
 
  private:
   int list_[CAPACITY];

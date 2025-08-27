@@ -43,22 +43,29 @@ int main(void) {
   //print(sqlist);
   //sqlist.pop_back();
   //print(sqlist);
-  //头删
-  sqlist.pop_front();
+  ////头删
+  //sqlist.pop_front();
+  //print(sqlist);
+  //sqlist.pop_front();
+  //print(sqlist);
+  //sqlist.pop_front();
+  //print(sqlist);
+  //sqlist.pop_front();
+  //print(sqlist);
+  //sqlist.pop_front();
+  //print(sqlist);
+  //sqlist.pop_front();
+  //print(sqlist);
+  //sqlist.pop_front();
+  //print(sqlist);
+  //sqlist.pop_front();
+  //print(sqlist);
+  // 任意位置删除
+  sqlist.erase(3);
   print(sqlist);
-  sqlist.pop_front();
+  sqlist.erase(4);
   print(sqlist);
-  sqlist.pop_front();
-  print(sqlist);
-  sqlist.pop_front();
-  print(sqlist);
-  sqlist.pop_front();
-  print(sqlist);
-  sqlist.pop_front();
-  print(sqlist);
-  sqlist.pop_front();
-  print(sqlist);
-  sqlist.pop_front();
+  sqlist.erase(5);
   print(sqlist);
 
   return 0;
