@@ -28,5 +28,38 @@ int main(void) {
   print(sqlist);
   sqlist.insert(4, 2);
   print(sqlist);
+  //// βɾ
+  //sqlist.pop_back();
+  //print(sqlist);
+  //sqlist.pop_back();
+  //print(sqlist);
+  //sqlist.pop_back();
+  //print(sqlist);
+  //sqlist.pop_back();
+  //print(sqlist);
+  //sqlist.pop_back();
+  //print(sqlist);
+  //sqlist.pop_back();
+  //print(sqlist);
+  //sqlist.pop_back();
+  //print(sqlist);
+  //ͷɾ
+  sqlist.pop_front();
+  print(sqlist);
+  sqlist.pop_front();
+  print(sqlist);
+  sqlist.pop_front();
+  print(sqlist);
+  sqlist.pop_front();
+  print(sqlist);
+  sqlist.pop_front();
+  print(sqlist);
+  sqlist.pop_front();
+  print(sqlist);
+  sqlist.pop_front();
+  print(sqlist);
+  sqlist.pop_front();
+  print(sqlist);
+
   return 0;
 }
