@@ -28,14 +28,8 @@ class StaticSequentialList {
 
     size_++;
   }
-  void pop_back() { size_--; }
-  void pop_front() {
-    // 把所有元素左移
-    for (int i = 1; i < size_; i++) {
-      list_[i] = list_[i + 1];
-    }
-    size_--;
-  }
+  void pop_back() { erase(size_); }
+  void pop_front() { erase(1); }
   void erase(int position) {
     // 将元素左移
     for (int i = position; i < size_; i++) {

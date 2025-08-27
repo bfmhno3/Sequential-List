@@ -60,13 +60,13 @@ int main(void) {
   //print(sqlist);
   //sqlist.pop_front();
   //print(sqlist);
-  // 任意位置删除
-  sqlist.erase(3);
-  print(sqlist);
-  sqlist.erase(4);
-  print(sqlist);
-  sqlist.erase(5);
-  print(sqlist);
+  //// 任意位置删除
+  //sqlist.erase(3);
+  //print(sqlist);
+  //sqlist.erase(4);
+  //print(sqlist);
+  //sqlist.erase(5);
+  //print(sqlist);
 
   return 0;
 }
